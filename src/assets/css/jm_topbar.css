@@ -1,0 +1,154 @@
+body{
+	margin: 0 0;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+.clearfix {
+  *+height: 1%;
+}
+
+
+.top-container{
+	width: 100%;
+	height: 40px;
+	background-color: #333333;
+}
+
+.top-bar{
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	font-size: 12px;
+	z-index: 11;
+}
+
+.topbar-nav{
+	float: left;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+}
+
+.nav-wrap{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav-wrap>.nav{
+	display: inline-block;
+	text-decoration: none;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 5px;
+}
+
+.nav-wrap>.nav>.nav-name{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 12px;
+	color: #b0b0b0;
+
+}
+.nav-wrap>.nav>.nav-name:hover{
+	color: #fff;
+}
+
+.nav-wrap>.nav>.nav-separate{
+	display: inline-block;
+	color: #b0b0b0;
+	margin-left: 5px;
+}
+
+.topbar-info{
+	position: absolute;
+	top: 0;
+	right: 140px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.topbar-info>a{
+	color: #b0b0b0;
+	text-decoration: none;
+}
+.topbar-info a:hover{
+	color: #ffffff;
+}
+
+.topbar-info>.nav-separate,.nav-wrap>.nav-separate{
+	color: #b0b0b0;
+}
+
+.topbar-cart{
+	position: relative;
+	float: right;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	background: #424242;
+}
+
+.topbar-cart>.active{
+	background: #ffffff;
+}
+
+.topbar-cart>.cart :hover{
+	color: #ff6700;
+}
+
+.topbar-cart>.cart>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-left: 40px;
+	color: #b0b0b0;
+	text-decoration: none;
+	box-sizing:border-box;
+}
+
+.topbar-cart>.cart>span{
+	color: #b0b0b0;
+}
+
+.topbar-cart>.cart>.icon-cart{
+	position: absolute;
+	left: 15px;
+	top:10px;
+	font-size: 20px;
+	color: #b0b0b0;
+}
+
+.topbar-cart>.cart-list{
+	position: absolute;
+	width: 316px;
+	height: 96px;
+	top: 40px;
+	right: 0;
+	line-height: 96px;
+	text-align: center;
+	color: #b0b0b0;
+	background: #ffffff;
+	box-shadow: 0 0 5px #ccc;
+	overflow: hidden;
+	z-index: 10;
+}
+
+.cart-list.fadein-transition{
+	transition: all 10s ease;
+	height: 96px;
+}
+
+.fadein-enter, .fadein-leave{
+	height: 0;
+}
+
+/*@import url(https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css);*/
