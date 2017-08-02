@@ -201,7 +201,7 @@ export default {
 
 <style>
     .qy_topBanner{
-      width: 1226px;
+      width: 100%;
       height: 460px;
       /*background: yellow;*/
       margin: 0 auto;
@@ -213,6 +213,7 @@ export default {
       height: 100%;
       /*background: green;*/
       margin:  auto;
+      width: 90%;
     }
     .topBanner_all .qy_lunboLeft{
       position: absolute;
