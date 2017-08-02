@@ -101,7 +101,7 @@ a {
 	list-style: none;
 }
 
-.box-item{
+/*.box-item{
 	width: 234px;
 	height: 260px;
 	padding: 20px 0;
@@ -109,6 +109,17 @@ a {
 	position: relative;
 	margin: 0 0 14px 20px;
 	transition:all 0.3s;
+}*/
+.box-item{
+    width: 23%;
+    height: auto;
+    padding: 20px 0;
+    background: #fff;
+    position: relative;
+    margin-left: 2%;
+    margin-bottom: 16px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .discount-label{
