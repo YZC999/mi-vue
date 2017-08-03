@@ -36,7 +36,8 @@ export default {
 </script>
 
 <style>
-  .goods_all{
-    background-color: #F5F5F5;
-  }
+    .goods_all{
+      background: #f5f5f5;
+    }
+    
 </style>

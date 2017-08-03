@@ -181,6 +181,9 @@ export default {
     color: #ff6700;
     border-bottom: 2px solid #ff6700;
   }
+  .bottom{
+  	position: absolute;
+  }
   .bottom .left{
     width: 234px;
     height: auto;
@@ -209,8 +212,8 @@ export default {
   .bottom .right li{
     float: left;
     width: 234px;
-    height: 260px;
-    padding: 20px 0;
+    height: auto;
+    padding: 25px 0;
     text-align: center;
     background: #fff;
     margin: 0 0 14px 14px;

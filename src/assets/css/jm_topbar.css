@@ -100,10 +100,8 @@ body{
 .topbar-cart>.active{
 	background: #ffffff;
 }
+
 .topbar-cart>.cart :hover{
-	color: #ff6700;
-}
-.topbar-cart>.cart:hover .icon-cart{
 	color: #ff6700;
 }
 
