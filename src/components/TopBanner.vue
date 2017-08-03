@@ -8,7 +8,7 @@
           </li>
         </ul>
       </div>
-      <div class="category-detail" v-show="isShow">
+      <div class="category-detail" v-show="isShow" @mouseenter="detailEnter" @mouseleave="leaveAlone">
       	<ul class="category-items" v-for="goods in currGoods">
       		<li class="category-goods" v-for="item in goods">
       			<router-link to="" class="goods-link">
@@ -194,6 +194,9 @@ export default {
   	},
     leaveAlone (){
       this.isShow=false;
+    },
+    detailEnter (){
+      this.isShow=true;
     }
   }
 }
