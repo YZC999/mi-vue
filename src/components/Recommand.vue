@@ -72,19 +72,25 @@ export default {
     rightClick(){
        this.count++;
        
-       if(this.count<4){
-          $('.recommand_all .qy_cal .cq_carousel').css('margin-left',(-this.count*102)+"%");
+       if(this.count<=3){
+          $('.recommand_all .qy_cal .lr_button span').css('color','#666');
+          $('.recommand_all .qy_cal .cq_carousel').animate({'margin-left':(-this.count*102)+"%"},1000);
        }else{
+          $('.glyphicon-chevron-right').css('color','#ccc');
           this.count=3;
+          
        }
        // console.log(this.count,(-this.count*102)+"%");
     },
     leftClick(){
       this.count--;       
        if(this.count>=0){
-          $('.recommand_all .qy_cal .cq_carousel').css('margin-left',(-this.count*102)+"%");
+          $('.recommand_all .qy_cal .lr_button span').css('color','#666');
+          $('.recommand_all .qy_cal .cq_carousel').animate({'margin-left':(-this.count*102)+"%"},1000);
        }else{
-          this.count=0
+          $('.glyphicon-chevron-left').css('color','#ccc');        
+          this.count=0;         
+            
        }
        // console.log(this.count,(this.count*102)+"%");
     }
@@ -110,7 +116,7 @@ export default {
     text-align: left;
   } 
   .recommand_all .qy_cal .cq_carousel{
-    width: 10000px;;
+    width: 500%;
     height: 300px;
   }
   .recommand_all .qy_cal .a{
@@ -122,9 +128,9 @@ export default {
   .recommand_all .qy_cal li{
     float: left;
     display: block;
-    width: 234px;
+    width: 3.9%;
     height: 300px;
-    margin: 0 13px 14px 0;
+    margin: 0 9px 14px 0;
     font-size: 14px;
     background: #fff;
     cursor: pointer;
@@ -142,10 +148,11 @@ export default {
   }
   .recommand_all .qy_cal .lr_button span{
     cursor: pointer;
+    color: #666;
   }
-  .recommand_all .qy_cal .lr_button span:hover{
+  /*.recommand_all .qy_cal .lr_button span:hover{
     color: red
-  }
+  }*/
   .recommand_all .cq_carousel h3{
     font-weight: normal;
     font-size: 14px;
