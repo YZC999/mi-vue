@@ -184,7 +184,7 @@ export default {
 .sub-item:hover {
 	 box-shadow: 0 5px 30px #ccc;
 		}
-img {
+ .subs  img {
 	display: block;
 	width: 316px;
 	height: 170px;
