@@ -41,7 +41,6 @@ export default {
     width: 100%;
     height: 487px;
     text-align: left;
-    background: #fff;
   }
   .product_all{
     width: 90%;
@@ -59,6 +58,7 @@ export default {
     height: 80%;
     float: left;
     margin-left: 2%;
+    background: #fff;
   }
   .product_all .pro_li img{
     width: 100%;
