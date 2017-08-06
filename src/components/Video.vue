@@ -278,6 +278,8 @@ import yy4 from "./common/yxmvideo4"
   .video-wrap-v .video-item   img {
     width: 100%;
     height: 180px;
+    margin-top: -10px;
+
     }
   .video-wrap-v .video-item   .video-title {
     color: #333;
