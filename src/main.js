@@ -7,7 +7,8 @@ import router from './router'
 import VueVideoPlayer from 'vue-video-player'
 
 
- 
+ import  VueResource  from 'vue-resource'
+ Vue.use(VueResource) 
 
 
 // mount with global
