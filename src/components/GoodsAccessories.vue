@@ -124,13 +124,13 @@
             console.log(response)
             console.log(response.data)
             
-            alert("hehheh")
+            
             console.log("这是我们需要的json数据yxm",response.data)
             // this.formData = response.data; //this.formData拿不到
            this.protect = response.data[0].aa;
            this.fiol = response.data[0].bb;
            this.other = response.data[0].cc;
-            alert("sssss")
+            
 
 
            
@@ -251,7 +251,7 @@
 } 
     .goods-right-item {
         width: 23%;
-        height: 260px;
+        height: 300px;
         cursor: pointer;
         -webkit-transition: all .3s;
         transition: all .3s;
