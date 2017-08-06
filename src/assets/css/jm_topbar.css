@@ -67,6 +67,7 @@ body{
 	margin-left: 5px;
 }
 
+
 .topbar-info{
 	position: absolute;
 	top: 0;
@@ -150,5 +151,6 @@ body{
 .fadein-enter, .fadein-leave{
 	height: 0;
 }
+
 
 /*@import url(https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css);*/

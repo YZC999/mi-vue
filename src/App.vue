@@ -6,6 +6,7 @@
     <top-nanner></top-nanner>
     <top-sub></top-sub>
     <goods></goods>
+    <mi-footer></mi-footer>
     <!-- <router-view></router-view> -->
   </div>
 </template>
@@ -16,6 +17,7 @@ import TopHeader from './components/TopHeader'
 import TopBanner from './components/TopBanner'
 import TopSub from './components/TopSub'
 import Goods from './components/Goods'
+import Footer from './components/mi-footer'
 export default {
   name: 'app',
   components:{
@@ -24,6 +26,7 @@ export default {
     'top-nanner':TopBanner,
     'top-sub':TopSub,
     'goods':Goods,
+    'mi-footer':Footer
   }
 }
 </script>
