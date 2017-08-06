@@ -186,7 +186,7 @@ export default {
 		}
  .subs  img {
 	display: block;
-	width: 316px;
+	width: 100%;
 	height: 170px;
 		}
  
