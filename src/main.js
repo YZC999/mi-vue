@@ -4,6 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import VueVideoPlayer from 'vue-video-player'
+
+
+ 
+
+
+// mount with global
+Vue.use(VueVideoPlayer)
 
 Vue.config.productionTip = false
 

@@ -280,8 +280,9 @@
         float: left;
         list-style: none;
         position: relative;
-        margin: 0 0 14px 20px;
+        margin: 0 0 14px 19px;
         padding: 20px 0;
+        background :white;
     }
      .goods-right-item:hover{
     transform:translateY(-1px);
