@@ -320,4 +320,8 @@
 	    background-color: #b0b0b0;
 	    transition: all .5s;
 	}
+
+	.jm_content .slide-wrap .fa-fw{
+		margin-top: 15px;
+	}
 </style>
