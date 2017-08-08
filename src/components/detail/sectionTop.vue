@@ -80,7 +80,7 @@ export default {
 	.section-top .layer-con {
 	    position: absolute;
 	    left: 50%;
-	    top: -20%;
+	    top: 0;
 	    margin-left: -1280px;
 	    width: 2560px;
 	    height: 1000px;
@@ -97,7 +97,7 @@ export default {
 	.section-top .layer-yu {
 	    position: absolute;
 	    left: 50%;
-	    top: 0;
+	    top: -20%;
 	    margin-left: -1280px;
 	    width: 2560px;
 	    height: 1000px;
@@ -147,5 +147,11 @@ export default {
 	    opacity: 0;
 	    filter: alpha(opacity=0)\9;
 	    transition: opacity 1.8s 1.8s;
+	}
+	.section-top .content, .section-top .layer-bg,
+	.section-top .title-top,.section-top .des,
+	.section-top .price {
+	    opacity: 0;
+
 	}
 </style>
