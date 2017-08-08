@@ -23,7 +23,7 @@
 				<router-link to="mi_login">登录</router-link>
 				<span class="nav-separate">|</span>
 				<!-- <a href="#">注册</a> -->
-				<router-link to="mi_resigner">登录</router-link>
+				<router-link to="mi_regist">注册</router-link>
 			</div>
 
 			<div class="topbar-cart fa cart-arrow-down" @mouseenter="shopCartEnter" @mouseleave="shopCartOut">

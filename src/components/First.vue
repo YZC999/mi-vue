@@ -15,7 +15,7 @@ import TopHeader from './TopHeader'
 import TopBanner from './TopBanner'
 import TopSub from './TopSub'
 import Goods from './Goods'
-import TempFooter from './TempFooter'
+import TempFooter from './mi-footer'
 
 export default {
   name: 'app1',

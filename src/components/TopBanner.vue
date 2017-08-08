@@ -220,7 +220,7 @@ export default {
     }
     .topBanner_all .qy_lunboLeft{
       position: absolute;
-      width: 235px;
+      width: 20%;
       background: #757575;
       height: 460px;
       z-index: 999;
@@ -245,7 +245,7 @@ export default {
       position: absolute;
       top: 0;
       right:0;
-      width: 1226px;
+      width: 100%;
       height: 460px;
     }
     .category-detail{
