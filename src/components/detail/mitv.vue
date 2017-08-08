@@ -18,6 +18,8 @@
 	<sec-vip></sec-vip>
 	<sec-install></sec-install>
 	<sec-recommend></sec-recommend>
+
+	<mi-footer></mi-footer>
   </div>
 </template>
 
@@ -41,6 +43,10 @@ import secVip from './sectionVip'
 import secInstall from './sectionInstall'
 import secRecommend from './sectionRecommend'
 
+
+import mifooter from '../mi-footer'
+
+
 export default {
   components:{
   	'sec-top':secTop,
@@ -48,6 +54,7 @@ export default {
   	'sec-thin':secThin,
   	'sec-story':secStory,
   	'sec-atoms':secAtoms,
+  	'sec-place':secPlace,
   	'sec-screen':secScreen,
   	'sec-chip':secChip,
   	'sec-sound':secSound,
@@ -59,7 +66,9 @@ export default {
   	'sec-hdzone':secHdzone,
   	'sec-vip':secVip,
   	'sec-install':secInstall,
-  	'sec-recommend':secRecommend
+  	'sec-recommend':secRecommend,
+
+  	'mi-footer':mifooter
   }
 }
 </script>
@@ -70,5 +79,13 @@ export default {
 		width: 100%;
 		border: 1px solid #000;
 		background: lightgreen;
+	}
+
+	.qy_mitv .jm_footer-wrap .footer a{
+		color: #616161;
+	}
+
+	.qy_mitv .jm_footer-wrap .footer a:hover{
+		color: #ff6700;
 	}
 </style>

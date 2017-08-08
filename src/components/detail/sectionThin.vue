@@ -1,21 +1,16 @@
 <template>
-  <div class="qy_secThin">
-	我是sectionThin
-  </div>
+
+<div class="xm-section-thin">
+</div>
+
 </template>
-
 <script>
+import  '../../assets/css/stylexm.css'
+export default{
+	data(){
+		return {
 
-export default {
-  components:{
-  }
+		}
+	}
 }
 </script>
-
-<style>
-	.qy_secThin{
-		height: 1100px;
-		width: 100%;
-		background: orange;
-	}
-</style>
