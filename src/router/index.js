@@ -1,27 +1,54 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import VueResource from 'vue-resource'
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-default/index.css'
+import First from '@/components/First'
+import Regist from '@/components/mi_regist'
+import Login from '@/components/mi_login'
+import GoodsDetail from '@/components/GoodsDetail'
 
-// import Hello from '@/components/Hello'
-import TopBanner from '@/components/TopBanner'
-
-Vue.use(VueResource);
 Vue.use(Router)
-Vue.use(ElementUI)
 
-export default new Router({
+// const User = {
+//   template: `
+//     <div class="user">
+//       <h2>User {{ $route.params.id }}</h2>
+//       <router-view></router-view>
+//     </div>
+//     `
+// }
+const router = new Router({
   routes: [
-    // {
-    //   path: '/',
-    //   name: 'Hello',
-    //   component: Hello
-    // },
     {
+      // 重定向到首页
       path: '/',
-      name: 'TopBanner',
-      component: TopBanner
+      redirect: '/First'       
+    },
+    {
+      path: '/First',
+      component: First       
+    },
+    {
+      path: '/mi_regist',
+      component: Regist     
+    },
+    {
+      path:'/mi_login',
+      component:Login
+    },
+    {
+      path:'/GoodsDetail',
+      component:GoodsDetail
     }
+    // {
+    //   path: '/user',
+    //   component: User,
+    //   children:[
+    //       { path: 'mi_regist', component: Regist }
+    //   ] 
+    // }
   ]
 })
+
+export default router;
+// const app = new Vue({
+//   router
+// }).$mount('#app')

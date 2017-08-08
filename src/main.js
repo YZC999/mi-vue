@@ -3,15 +3,20 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import  VueResource  from 'vue-resource'
+import VueResource from 'vue-resource'
 
+import ElementUI from 'element-ui'
 import VueVideoPlayer from 'vue-video-player'
+import 'element-ui/lib/theme-default/index.css'
 
- Vue.use(VueResource) 
 
+import './assets/js/jquery-3.1.1.js'
+import './assets/js/gVerify.js'
 
-// mount with global
 Vue.use(VueVideoPlayer)
+Vue.use(ElementUI)
+Vue.use(VueResource)
+
 
 Vue.config.productionTip = false
 
