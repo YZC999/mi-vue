@@ -48,6 +48,7 @@ export default {
 	    text-align: center;
 	    color: #fff;
 	    z-index: 10;
+	    transition: all 3s;
 	}
 	.section-top .title-top {
 	    transition: opacity 1.5s 2.2s;
@@ -67,6 +68,7 @@ export default {
 	}
 	.section-top .price {
 	    transition: opacity 1.5s 2.8s;
+	    transition: all 1s;
 	}
 	.section .price {
 	    margin-top: 55px;
@@ -88,8 +90,8 @@ export default {
 	    transition: all 2s;
 	}
 	.section-top.is-visible .layer-yu {
-	    opacity: 1;
-	    transform: translate3d(0, 0, 0);
+	    /*opacity: 1;*/
+	    /*transform: translate3d(0, 0, 0);*/
 	}
 	.section-top.preload .layer-yu {
 	    background-image: url("../../assets/img/top-yu.jpg");
@@ -102,7 +104,7 @@ export default {
 	    width: 2560px;
 	    height: 1000px;
 	    z-index: 2;
-	    transform: translate3d(0, -200px, 0);
+	    /*transform: translate3d(0, -200px, 0);*/
 	    transition: all 2s;
 	    background-color: #000;
 	    background-repeat: no-repeat;
@@ -152,6 +154,8 @@ export default {
 	.section-top .title-top,.section-top .des,
 	.section-top .price {
 	    opacity: 0;
+	    top: 20%
+
 
 	}
 </style>

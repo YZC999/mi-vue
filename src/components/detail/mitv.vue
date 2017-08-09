@@ -3,20 +3,20 @@
 	<sec-top></sec-top>
 	<sec-fea></sec-fea>
 	<sec-thin></sec-thin>
-	<sec-story></sec-story>
-	<sec-atoms></sec-atoms>
+	<!-- <sec-story></sec-story> -->
+	<!-- <sec-atoms></sec-atoms> -->
 	<sec-place></sec-place>
-	<sec-screen></sec-screen>
+	<!-- <sec-screen></sec-screen> -->
 	<sec-chip></sec-chip>
 	<sec-sound></sec-sound>
-	<sec-voice></sec-voice>
+	<!-- <sec-voice></sec-voice> -->
 	<sec-smart></sec-smart>
 	<sec-children></sec-children>
 
-	<sec-reading></sec-reading>
+	<!-- <sec-reading></sec-reading> -->
 	<sec-hdzone></sec-hdzone>
-	<sec-vip></sec-vip>
-	<sec-install></sec-install>
+	<!-- <sec-vip></sec-vip> -->
+	<!-- <sec-install></sec-install> -->
 	<sec-recommend></sec-recommend>
 
 	<sec-footer></sec-footer>
