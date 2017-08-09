@@ -322,6 +322,7 @@ export default {
 		border: 1px solid red;
 		color: #ff6700;
 		cursor: pointer;
+		margin-left: 1%;
 	}
 
 	.jm_footer-wrap .footer-last-item .col-content .server-btn:hover{

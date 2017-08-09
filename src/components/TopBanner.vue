@@ -231,6 +231,7 @@ export default {
 
     .topBanner_all .qy_lunboLeft ul{
       padding: 20px 0;
+      text-align: center;
     }
     .topBanner_all .qy_lunboLeft li{
       width: 100%;

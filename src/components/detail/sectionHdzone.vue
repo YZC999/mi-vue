@@ -54,12 +54,13 @@
 
 	.icon-hdzone{
 		background: url(//c1.mifile.cn/f/i/17/mitv4/65index/icon-hd01.png) no-repeat center center;
-		    transform: translate3d(0, 0, 0);
-		    opacity: 1;
-		    margin: 0 auto 25px;
-    		width: 77px;
-    		height: 81px;
-    		transition: all .8s;
+		transform: translate3d(0, 0, 0);
+		opacity: 0;
+		margin: 0 auto 25px;
+    	width: 77px;
+    	height: 81px;
+    	transition: all 2s;
+    	margin-top: 60px;
 	}
 
 	.jm_hdzone h2{
@@ -68,7 +69,10 @@
 		margin: 0;
 		padding: 0;
 		border: none;
-		font-family: '仿宋'
+		font-family: '仿宋';
+		opacity: 0;
+		margin-top: 30px;
+		transition: all 2s;
 	}
 
 	.jm_hdzone .content p{
@@ -76,7 +80,11 @@
     	font-size: 16px;
     	margin: 0;
 		padding: 0;
+		margin-top: 15px;
+		opacity: 0;
+		transition: all 2s;
 	}
+
 
 	.jm_hdzone .wrap{
 		position: absolute;

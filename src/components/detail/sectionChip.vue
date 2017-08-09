@@ -18,8 +18,9 @@
 		</div>
 	</div>
 </template>
-
+<script type="text/javascript" src="../../assets/js/sectionSlide.js"></script>
 <script>
+
 	export default {
 		data(){
 			return{
@@ -27,9 +28,9 @@
 				chiptit2:'大电视有大内存',
 				chiptit3:'内存大升级，能装下你爱的应用，还能加速你的游戏。',
 				chips:[
-					{t1:'4核',t2:'Cortex A53 1.8GHz'},
-					{t1:'4核',t2:'Cortex A53 1.8GHz'},
-					{t1:'4核',t2:'Cortex A53 1.8GHz'}
+					{t1:'4核 CPU',t2:'Cortex A53 1.8GHz'},
+					{t1:'2+2核 GPU',t2:'Mali-T830 750MHz'},
+					{t1:'3GB+32GB',t2:'超大存储空间'}
 				]
 			}
 		}
@@ -58,19 +59,32 @@
 	}
 
 	.jm_chip-container .title{
+		top:40%;
 		padding-bottom: 10px;
-		opacity: 1;
-		transform:translate3d(0,0,0)
-	}
-
-	.jm_chip-container .item-des{
+		opacity: 0;
+		font-size: 40px;
+		font-weight: 200;
+		font-family: '仿宋';
+		line-height: 64px;
+		transform:translate3d(0,0,0);
 		transition: all .8s .2s;
 	}
 
-	.jm_chip-container .chip-list{
-		opacity: 1;
-		transform:translate3d(0,0,0);
-		margin-top: 50px;
+	.jm_chip-container .item-des{
+		transition: all .8s .2s;	
+		top:20%;
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+
+	.jm_chip-container .chip-list h2{
+		font-size: 40px;
+		line-height: 20px;
+		font-weight: 400;
+		opacity: 0;
+		transition: all .8s .2s;
+		top: 10%;
 	}
 
 	.jm_chip-container .chip-list .item:first-child{
@@ -81,6 +95,12 @@
 		display: inline-block;
 		padding: 0 70px;
 		border-left: 1px solid #fff;
+		opacity: 0;
+		transform:translate3d(0,0,0);
+		margin-top: 50px;
+		top:20%;
+		transition: all .8s .2s;
+
 	}
 
 	.jm_chip-container .chip-list li{
