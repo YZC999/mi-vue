@@ -119,7 +119,7 @@ $(function(){
 			$('.smart-container h2').css('transform','translateY(-75%)');
 
 			$('.jm_smart .smart-container .item-des').css('opacity',1);
-			$('.jm_smart .smart-container .item-des').css('transform','translateY(-225%)');
+			$('.jm_smart .smart-container .item-des').css('transform','translateY(45%)');
 			$('.jm_smart .smart-container .item-des').css('font-size',20);
 			// $('.jm_smart .group .icon01').css('opacity',1);
 		}

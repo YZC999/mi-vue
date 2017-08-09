@@ -75,12 +75,13 @@
     	font-size: 16px;
     	opacity: 0;
     	transition: all 3.5s;
-		top: 20%;
+		/*top: 20%;*/
+		margin-top: -5%;
 	}
 
 	.smart-content{
 		max-width: 1920px;
-		margin: 60px auto 0;
+		margin: 70px auto 0;
 		height: 500px;
 	}
 
@@ -94,8 +95,9 @@
 	.jm_smart .group{
 		float: left;
 		width: 33.3%;
-		padding-bottom: 50px;
-		font-family: '楷书'
+		padding-bottom: 60px;
+		font-family: '楷书';
+		padding-top: 20px;
 	}
 
 	.smart-list li{
