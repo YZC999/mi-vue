@@ -19,6 +19,7 @@
 	<sec-install></sec-install>
 	<sec-recommend></sec-recommend>
 
+	<sec-footer></sec-footer>
 	<mi-footer></mi-footer>
   </div>
 </template>
@@ -43,7 +44,7 @@ import secVip from './sectionVip'
 import secInstall from './sectionInstall'
 import secRecommend from './sectionRecommend'
 
-
+import secFooter from './sectionFooter'
 import mifooter from '../mi-footer'
 
 
@@ -68,6 +69,7 @@ export default {
   	'sec-install':secInstall,
   	'sec-recommend':secRecommend,
 
+  	'sec-footer':secFooter,
   	'mi-footer':mifooter
   }
 }
@@ -77,8 +79,8 @@ export default {
 	.qy_mitv{
 		height: auto;
 		width: 100%;
-		border: 1px solid #000;
-		background: lightgreen;
+/*		border: 1px solid #000;
+		background: lightgreen;*/
 	}
 
 	.qy_mitv .jm_footer-wrap .footer a{
