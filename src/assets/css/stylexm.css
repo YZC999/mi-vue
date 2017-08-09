@@ -158,17 +158,35 @@ font-size: 20px;
 .xm-section-place .xm-container h2 {
  color: black;
  font-family:monospace;
+ margin-top: 180px;
+ transition:all .4s;
+ opacity: 0;
 }
  
 .xm-section-place .xm-link{
   display: inline-block;
-  margin-top: 30px;
+  margin-top:20px;
   color:black;
+  opacity: 0;
+  transition:all 1s;
+  z-index: 11px;
 }
+
+
+.xm-section-place .xm-item-des{
+  
+  margin-top: -90px;
+  color:black;
+  /*opacity: 0;*/
+  transition:all 1s;
+  line-height: 20px;
+  opacity: 0;
+}
+
  
 .xm-section-place .xm-atoms-list .item {
       display: inline-block;
-      padding: 0 30px;
+      padding: 0 30px; 
       border-left: 1px solid #aeb3b8;
   }
   .xm-section-place .xm-atoms-list .item:first-child {
@@ -179,9 +197,11 @@ font-size: 20px;
   display: block;
  }
 .xm-section-place .xm-atoms-list{
-  margin-top: 860px;
+  margin-top: 920px;
   text-align: center;
   font-size: 16px;
+  opacity: 0;
+  transition:all 1s;
 }
 
 .xm-section-place .xm-wrap {
@@ -199,9 +219,11 @@ background: url("https://c1.mifile.cn/f/i/17/mitv4/65index/place-pic.jpg")  no-r
   .xm-section-place  .xm-place-pic {
     position: absolute;
     right: 0;
-    top: 180px;
+    top: 150px;
     width: 1834px;
     height: 892px;
+    opacity: 0px;
+    transition:all 1s;
     }
   .xm-section-sound{
     color: white;
@@ -216,12 +238,28 @@ background: url("https://c1.mifile.cn/f/i/17/mitv4/65index/place-pic.jpg")  no-r
    .xm-section-sound {
     background: url("https://c1.mifile.cn/f/i/17/mitv4/65index/bg-sound.jpg") ;
     background-position: center top;
+
+
   }
   .xm-section-sound .video-icon{
     background:url("../img/vedio.png") no-repeat center center;
     width: 100px;
     height: 100px;
-    margin: 70px auto 35px;
+    margin: 100px auto 35px;
+    opacity: 0;
+    transition:all .5s;
+    }
+  .xm-section-sound  .title-sound{
+    opacity:0;
+    transition:all 1s;
+    margin-top: 40px;
+    text-align: center;
+    }
+  .xm-section-sound  .text{
+    opacity:0;
+    transition:all 1s;
+    margin-top: 0px;
+    text-align: center;
     }
   .video-icon-img{
     width: 100%;
@@ -230,9 +268,11 @@ background: url("https://c1.mifile.cn/f/i/17/mitv4/65index/place-pic.jpg")  no-r
 
   .xm-icon-list{
     overflow: hidden;
-    margin-top: 600px;
+    margin-top: 560px;
     text-align: center;
     font-size: 16px;
+    opacity: 0;
+    transition:all 1s;
   }
   .xm-icon-list  .icon-list-li{
     width: 12.5%;
@@ -254,49 +294,49 @@ background: url("https://c1.mifile.cn/f/i/17/mitv4/65index/place-pic.jpg")  no-r
     background-repeat: no-repeat;
   }
 
-  .icon-list-li .icon01{
+.icon-list-li .icon01{
       background-position:0px 0;
   }
 .icon-list-li:hover .icon01 {
     background-position: -0px -70px;
 }
-  .icon-list-li .icon02 {
+.icon-list-li .icon02 {
     background-position: -70px 0;
 }
 .icon-list-li:hover .icon02 {
     background-position: -70px -70px;
 }
-  .icon-list-li .icon03 {
+.icon-list-li .icon03 {
     background-position: -140px 0;
 }
- .icon-list-li:hover .icon03 {
+.icon-list-li:hover .icon03 {
     background-position: -140px -70px;
 }
- .icon-list-li .icon04 {
+.icon-list-li .icon04 {
     background-position: -210px 0;
 }
- .icon-list-li:hover .icon04 {
+.icon-list-li:hover .icon04 {
     background-position: -210px -70px;
 }
- .icon-list-li .icon05 {
+.icon-list-li .icon05 {
     background-position: -280px 0;
 }
- .icon-list-li:hover .icon05 {
+.icon-list-li:hover .icon05 {
     background-position: -280px -70px;
 }
- .icon-list-li .icon06 {
+.icon-list-li .icon06 {
         background-position: -350px 0;
 }
- .icon-list-li:hover .icon06 {
+.icon-list-li:hover .icon06 {
     background-position: -350px -70px;
 }
- .icon-list-li .icon07 {
+.icon-list-li .icon07 {
     background-position: -420px 0;
 }
- .icon-list-li:hover .icon07 {
+.icon-list-li:hover .icon07 {
     background-position: -420px -70px;
 }
- .icon-list-li .icon08 {
+.icon-list-li .icon08 {
     background-position: -490px 0;
 }
 .icon-list-li:hover .icon08 {
@@ -348,13 +388,28 @@ background: url("https://c1.mifile.cn/f/i/17/mitv4/65index/place-pic.jpg")  no-r
     color: #fff;
 }
 
+.xm-section-children h2{
+  opacity: 0;
+  margin-top: 20px;
+  transition:all 1s;
+}
+.xm-section-children p{
+  opacity: 0;
+  margin-top: 20px;
+  transition:all 1s;
+}
+
  .xm-content p {
     line-height: 30px;
     font-size: 16px;
 }
+
 .children-list{
-    margin-top: 60px;
+    margin-top: 100px;
     text-align: center;
+    opacity: 0;
+    transition:all 1s;
+
 }
 .children-list li{
   margin:0 50px;
@@ -385,7 +440,9 @@ background: url("https://c1.mifile.cn/f/i/17/mitv4/65index/place-pic.jpg")  no-r
 
 .children-tv {
     background: url("https://c1.mifile.cn/f/i/17/mitv4/65index/children-tv.png") no-repeat center center;
-    margin: 80px auto 0;
+    margin: 34px auto 0;
     width: 1203px;
     height: 761px;
+    opacity: 0;
+    transition:all 1s;
 }

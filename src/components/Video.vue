@@ -1,23 +1,17 @@
  <template>
- 
-
-
-
-
-<div class="xm-video-container clearfix">
-  <div class="header1">
-    <h2 class="title">{{title}}</h2>
-    <a href="//www.mi.com/video/" target="_blank">
-      <span class="top-sub1">
+  <div class="xm-video-container clearfix">
+   <div class="header1">
+     <h2 class="title">{{title}}</h2>
+     <a href="//www.mi.com/video/" target="_blank">
+       <span class="top-sub1">
         查看全部
-        <i class="sub-icon-v fa fa-fw fa-chevron-circle-right"></i>
-      </span>
-    </a>
+       <i class="sub-icon-v fa fa-fw fa-chevron-circle-right"></i>
+       </span>
+      </a>
   </div>
-<div class="video-content-v clearfix">
+  <div class="video-content-v clearfix">
     <ul class="video-wrap-v ">
-
-      <li class="video-item">
+     <li class="video-item">
        <el-button type="text" @click="dialogVisible1 = true"> 
         <div class="item-top">
           <img src="http://i3.mifile.cn/a4/73d67577-cbc7-4bd0-8678-4b1e95f4f4dc" alt="" />
@@ -61,7 +55,7 @@
         <p class="video-desc">
           小米笔记本Air是如何炼成的？
         </p>
-         </el-button>
+       </el-button>
       </li>
 
 
@@ -80,9 +74,7 @@
         </p>
          </el-button>
       </li>
-     
-
-    </ul>
+   </ul>
   
 </div>
  
@@ -106,39 +98,37 @@
   :visible.sync="dialogVisible2"
   size="small"
   :before-close="handleClose">
-  
   <yyy2></yyy2>
   <span slot="footer" class="dialog-footer">
-    <el-button @click="dialogVisible2 = false">取 消</el-button>
-    <el-button type="primary" @click="dialogVisible2 = false">确 定</el-button>
+  <el-button @click="dialogVisible2 = false">取 消</el-button>
+  <el-button type="primary" @click="dialogVisible2 = false">确 定</el-button>
   </span>
 </el-dialog>
+
 <el-dialog
   title="小米笔记本Air可靠性测试视频"
   :visible.sync="dialogVisible3"
   size="small"
   :before-close="handleClose">
-   
   <yyy3></yyy3>
   <span slot="footer" class="dialog-footer">
-    <el-button @click="dialogVisible3 = false">取 消</el-button>
-    <el-button type="primary" @click="dialogVisible3 = false">确 定</el-button>
+  <el-button @click="dialogVisible3 = false">取 消</el-button>
+  <el-button type="primary" @click="dialogVisible3 = false">确 定</el-button>
   </span>
 </el-dialog>
+
 <el-dialog
-      
   title=" 小米Max 绝美外观视频"
   :visible.sync="dialogVisible4"
-  size="small
-  "
+  size="small"
   :before-close="handleClose">
-  
   <yyy4></yyy4>
   <span slot="footer" class="dialog-footer">
-    <el-button @click="dialogVisible4 = false">取 消</el-button>
-    <el-button type="primary" @click="dialogVisible4 = false">确 定</el-button>
+  <el-button @click="dialogVisible4 = false">取 消</el-button>
+  <el-button type="primary" @click="dialogVisible4 = false">确 定</el-button>
   </span>
 </el-dialog>
+
 </div>
 </template>
 <script>

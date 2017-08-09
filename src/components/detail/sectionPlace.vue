@@ -1,11 +1,11 @@
 <template>
 <div class="xm-section-place">
-	<div class="xm-container">
+	<div class="xm-container"> 
 		<div class="xm-connect">
 			<h2 class="title xm-webfont">
 				令好莱坞导演称赞的
 				<br>
-				杜比全景声第一次进入客厅
+				杜比全景声第一次进入客厅 
 			</h2>
 			<p class="xm-item-des">全球每56个影厅中，只有1个是杜比全景声影厅，如今你在客厅就能体验到它的震撼。</p>
 		    <a href="#" class="xm-link">了解杜比全景声 ></a>

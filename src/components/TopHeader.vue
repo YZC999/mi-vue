@@ -5,18 +5,16 @@
         <a href="#" class="xm_pic-gif"></a>
         <div class="xm_header-navs">
               <ul class="navs">
-                   <li v-for="item in navs" v-if="item.type">
+                    <li v-for="item in navs" v-if="item.type">
                      
-              <a href="javascript: void(0);" class="nav-item"
-              @mouseenter="evtHeaderEnter(item.type)"
-              @mouseleave="evtHeaderLeave()"
-              >{{item.name}}</a>
-          </li>  
-          <li v-else>
-              <a :href="item.sourceUrl" target="_blank" class="nav-item">{{item.name}}</a>
-              
-          </li>
-                  
+                      <a href="javascript: void(0);" class="nav-item"
+                       @mouseenter="evtHeaderEnter(item.type)"
+                       @mouseleave="evtHeaderLeave()"
+                      >{{item.name}}</a>
+                    </li>  
+                    <li v-else>
+                       <a :href="item.sourceUrl" target="_blank" class="nav-item">{{item.name}}</a>
+                     </li>
               </ul>
         </div>
 
@@ -24,13 +22,8 @@
          
 
          <div class="header-search">
-          <ul class="hot-word"
-            transition="fadeOut"
-            v-show="hotStatus">
-            <li class="hot-item"
-              v-for="item in hotItems">
-              {{item}}
-            </li>
+            <ul class="hot-word" transition="fadeOut"  v-show="hotStatus">
+              <li class="hot-item"  v-for="item in hotItems"> {{item}}</li>
           </ul>
           <input
             @focus="evtIptFocus"
@@ -46,9 +39,7 @@
             </li>
           </ul>
          </div>
-
-
-    </div>
+ </div>
 
   <div class="header-menu"
         @mouseenter="evtHeaderEnter()"
@@ -61,12 +52,10 @@
               <img :src="item.imgUrl" alt="" class="product-img"/>
             </a>
             <div class="product-name">{{item.name}}</div>
-            <div class="product-price">
-              {{item.price}}
-            </div>
+            <div class="product-price"> {{item.price}} </div>
           </li>
         </ul>
-      </div>
+  </div>
 
     <div class="xm_header-menuddd">
         
@@ -173,36 +162,28 @@ export default{
     evtIptBlur () {
       $('.header-search').removeClass('search-active')
       $('.search-btn').removeClass('search-btn-active')
-
       $('.search-result').hide()
       this.hotStatus = true
     },
     evtHeaderEnter (menuType) {
       if (menuType) {
-         
-        this.currentPhones = this[menuType]
+         this.currentPhones = this[menuType]
         $(".header-menu").slideDown("slow");
         }
        // $('.header-menu').slide(2000); 
              // $(".header-menu").addClass("slide-up");
-      this.headerStatus = true
+        this.headerStatus = true
       
             
-       clearTimeout(this.tids)
+        clearTimeout(this.tids)
     },
     evtHeaderLeave () {
         let self = this
         this.tids = setTimeout(function () {
-         $(".header-menu").slideUp("slow");
-          
+        $(".header-menu").slideUp("slow");
         self.headerStatus = false
-
-
-       }, 300)
+      }, 300)
     }
-         
-
-
    }
 
   }
@@ -272,17 +253,8 @@ height:50px;
 position:absolute;
 top: 100px;
 z-index:100px
-
-
-
-}
-
-
-
-
-
-
-
+ }
+ 
 .header-menu {
 position: absolute;
 left: 0;
@@ -417,10 +389,7 @@ border: 1px solid #ff6700;}
 border-left: 1px solid #ff6700;
 }
 
-
-
-
-.search-result {
+ .search-result {
 display: none;
 position: absolute;
 left: -1px;

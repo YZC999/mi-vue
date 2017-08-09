@@ -4,64 +4,47 @@
 		<div class="sub-1">
 			<ul class="channels">
 				<li class="channel">
-          <a href="http://www.mi.com/compare/" target="_blank">
+                   <a href="http://www.mi.com/compare/" target="_blank">
   					<i class="fa fa-mobile fa-fw sub-icon"></i>
-            <p class="channel-txt">
-  					      选购手机
-            </p>
-          </a>
+                     <p class="channel-txt">  选购手机  </p>
+                   </a>
 				</li>
-				<div class="line-vertical">
-				</div>
+				<div class="line-vertical"> </div>
 				<li class="channel">
-          <a href="http://qiye.mi.com/" target="_blank">
+                  <a href="http://qiye.mi.com/" target="_blank">
   					<i class="fa fa-gift fa-fw sub-icon"></i>
-            <p class="channel-txt">
-  					       企业团购
-            </p>
-          </a>
+                     <p class="channel-txt"> 企业团购 </p>
+                  </a>
 				</li>
-				<div class="line-vertical">
-				</div>
+				<div class="line-vertical"> </div>
 				<li class="channel">
-          <a href="http://item.mi.com/re" target="_blank">
+                    <a href="http://item.mi.com/re" target="_blank">
   					<i class="fa fa-refresh fa-fw sub-icon"></i>
-            <p class="channel-txt">
-  					       官翻产品
-            </p>
-          </a>
+                    <p class="channel-txt">  官翻产品  </p>
+                    </a>
 				</li>
-				<div class="line-horizontal">
-				</div>
-				<div class="line-horizontal">
-				</div>
-				<div class="line-horizontal">
-				</div>
+				<div class="line-horizontal"> </div>
+				<div class="line-horizontal"> </div>
+				<div class="line-horizontal"> </div>
 				<li class="channel">
-          <a href="http://huanxin.mi.com/product/list" target="_blank">
+                  <a href="http://huanxin.mi.com/product/list" target="_blank">
   					<i class="fa fa-credit-card fa-fw sub-icon"></i>
-            <p class="channel-txt">小米移动</p>
-          </a>
+                    <p class="channel-txt">小米移动</p>
+                  </a>
 				</li>
-				<div class="line-vertical">
-				</div>
+				<div class="line-vertical"> </div>
 				<li class="channel">
-          <a href="http://huanxin.mi.com/product/list" target="_blank">
+                  <a href="http://huanxin.mi.com/product/list" target="_blank">
   					<i class="fa fa-recycle fa-fw sub-icon"></i>
-  					<p class="channel-txt">
-  					  以旧换新
-  					</p>
-          </a>
+  					<p class="channel-txt">  以旧换新 </p>
+                  </a>
 				</li>
-				<div class="line-vertical">
-				</div>
+				<div class="line-vertical"> </div>
 				<li class="channel">
-          <a href="http://recharge.10046.mi.com/" target="_blank">
-  					<i class="fa fa-credit-card-alt fa-fw sub-icon"></i>
-            <p class="channel-txt">
-    					话费充值
-            </p>
-          </a>
+                   <a href="http://recharge.10046.mi.com/" target="_blank">
+  					 <i class="fa fa-credit-card-alt fa-fw sub-icon"></i>
+                     <p class="channel-txt"> 话费充值 </p>
+                   </a>
 				</li>
 			</ul>
 		</div>
