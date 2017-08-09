@@ -69,6 +69,12 @@
     	text-align: center;
 	}
 
+	.jm_footer .content h2,.jm_footer .content .item-des{
+		opacity: 0;
+		transition:all 2s;
+		margin-top: 20px;
+	}
+
 	.jm_footer-erweima{
 		background: #fff;
     	padding: 45px 0;

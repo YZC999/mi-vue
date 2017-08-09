@@ -33,11 +33,17 @@
 	.jm_recommed h2{
 		line-height: 64px;
 		font-size: 40px;
+		opacity: 0;
+		transition:all 2s;
+		margin-top: 30px;
 	}
 
 	.jm_recommed p{
 		line-height: 30px;
 		font-size: 16px;
+		margin-top:-40px; 
+		opacity: 0;
+		transition:all 2s;
 	}
 
 	.jm_recommed .pic{
