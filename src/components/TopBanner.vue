@@ -300,5 +300,9 @@ export default {
     	color: #fff;
     	background: #ff6700;
     }
+    .topBanner_all .qy_lunboRight .el-carousel__item img{
+      position:absolute;
+      right:0;
+    }
 
 </style>
