@@ -3,19 +3,18 @@ $(function(){
 		var scrollTop = $(document).scrollTop();
 		var secTopHeight = $('.section-top .layer-con').offset().top;
 		var secThinHeight = $('.section-thin').offset().top;
-<<<<<<< HEAD
-       
-        //xm
+ 
+        
 		var xmsectionplace=$('.xm-section-place').offset().top;
 		var xmsectionsound=$('.xm-section-sound').offset().top;
 		var xmsectionchildren=$('.xm-section-children').offset().top;
-=======
+ 
 
 		var secChipHeight = $('.jm_chip').offset().top;
 		var secSmartHeight = $('.jm_smart').offset().top;
 		var secHdzone = $('.jm_hdzone').offset().top;
 		console.log(secHdzone)
->>>>>>> 24371111c62dee00133e6b604120e5526153b841
+ 
 
 		if(scrollTop>=0){
 			$('.section-top .layer-yu').css('transform','translateY(20%)');
@@ -33,12 +32,12 @@ $(function(){
 			$('.section-thin .thin-tv02').css('transform','translateX(-180px)');
 		}
 
-<<<<<<< HEAD
+ 
         
-        //xm
+       
         if(scrollTop>=(xmsectionplace-200)){
         	$('.xm-connect  .title').css('transform','translateY(-140px)');
-			$('.xm-connect  .title').css('opacity',1);
+			$('.xm-connect  .title').css('opacity',1); //xm
 
 
 			$('.xm-connect  .xm-link ').css('transform','translateY(-40px)');
@@ -61,14 +60,14 @@ $(function(){
            }
          
 
-         if(scrollTop>=(xmsectionsound)){
+         if(scrollTop>=(xmsectionsound-120)){
             
             $(' .video-icon').css('transform','translateY(-80px)');
 			$(' .video-icon ').css('opacity',1);
 			 
            }
          
-         if(scrollTop>=(xmsectionsound+20)){
+         if(scrollTop>=(xmsectionsound-100)){
             
             
 			$('.title-sound').css('transform','translateY(-90px)');
@@ -77,7 +76,7 @@ $(function(){
             $('.xm-section-sound  .text ').css('opacity',1);
            }
 
-         if(scrollTop>=(xmsectionsound+700)){
+         if(scrollTop>=(xmsectionsound+500)){
             $('.xm-icon-list').css('transform','translateY(-30px)');
             $('.xm-icon-list').css('opacity',1);
            } 
@@ -101,8 +100,8 @@ $(function(){
             $('.xm-section-children   .children-tv ').css('opacity',1);
            } 
          
-         //xm
-=======
+     
+ 
 
 
 
@@ -158,7 +157,7 @@ $(function(){
 			$('.jm_hdzone .content p').css('transform','translateY(-50px)');
 		}
 
->>>>>>> 24371111c62dee00133e6b604120e5526153b841
+ 
 
 	})
 })

@@ -15,7 +15,7 @@
 
 	<!-- <sec-reading></sec-reading> -->
 	<sec-hdzone></sec-hdzone>
-	<!-- <sec-vip></sec-vip> -->
+	<sec-vip></sec-vip>
 	<!-- <sec-install></sec-install> -->
 	<sec-recommend></sec-recommend>
 
