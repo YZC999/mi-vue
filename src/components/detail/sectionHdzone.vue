@@ -107,6 +107,13 @@
     	width: 250px;
     	height: 449px;
     	float: left;
+    	/*margin-top: 20px;*/
+	}
+
+	.jm_hdzone .wrap .poster-list .poster01,.jm_hdzone .wrap .poster-list .poster02,.jm_hdzone .wrap .poster-list .poster03,
+	.jm_hdzone .wrap .poster-list .poster07,.jm_hdzone .wrap .poster-list .poster05,.jm_hdzone .wrap .poster-list .poster06{
+		opacity: 0;
+    	transition: all 3s;
 	}
 
 	.jm_hdzone .wrap .poster-list .poster01{
@@ -126,6 +133,9 @@
 		margin-top: 0;
     	width: 459px;
     	height: 569px;
+    	opacity: 0;
+    	margin-top: 20px;
+    	transition: all 2s;
 	}
 
 	.jm_hdzone .wrap .poster-list .poster05{

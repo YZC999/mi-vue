@@ -39,6 +39,7 @@ export default {
 		height: 1100px;
 		width: 100%;
 		background: orange;
+		overflow: hidden;
 	}
 	.section-thin.preload {
 	    background: url('../../assets/img/bg-thin.jpg') no-repeat center center;
