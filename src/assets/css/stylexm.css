@@ -1,6 +1,8 @@
 .xm-header-nav-fixed{
     	height: 65px;
     	width: 100%;
+      z-index: 100;
+      background: white;
     	 
  }
  .xm-right-nav a{
@@ -9,7 +11,7 @@
  }
  .xm-nav-bar{
  	height: 100%;
- 	width: 1226px;
+ 	width: 90%;
   margin: 0 auto;
  }
  .xm-left-nav{
@@ -38,6 +40,7 @@ font-size: 20px;
  	line-height: 65px;
  	color: #616161;
  	font-size: 13px;
+  margin-right: -79px;
  }
 .xm-right-nav a:hover{
   	color: #ff6700
