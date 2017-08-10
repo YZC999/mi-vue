@@ -48,9 +48,9 @@
         transition="fadein">
         <ul class="menus clearfix">
           <li class="product" v-for="item in currentPhones">
-            <a :href="item.sourcePath">
+            <router-link :to="item.sourcePath">
               <img :src="item.imgUrl" alt="" class="product-img"/>
-            </a>
+            </router-link>
             <div class="product-name">{{item.name}}</div>
             <div class="product-price"> {{item.price}} </div>
           </li>
@@ -95,12 +95,12 @@ export default{
         {name: '小米笔记本Air 13.3', imgUrl: 'http://c1.mifile.cn/f/i/g/2015/cn-index/bijiben320!160x110.jpg', sourcePath: 'http://www.mi.com/mimax/', price: '4999元'}
       ],
       tv: [
-        {name: '小米电视3S 43英寸', imgUrl: 'http://c1.mifile.cn/f/i/16/goods/nav/mitv3s-43!160x110.jpg', sourcePath: '/#GoodsDetail', price: '1499元'},
-        {name: '小米电视3S 48英寸', imgUrl: 'http://c1.mifile.cn/f/i/15/goods/nav/mitv3s48!160x110.jpg', sourcePath: '/#GoodsDetail', price: '1999元'},
-        {name: '小米电视3 55英寸', imgUrl: 'http://c1.mifile.cn/f/i/15/goods/nav/mitv355!160x110.jpg', sourcePath: '/#GoodsDetail', price: '3299元起'},
-        {name: '小米电视3 60英寸', imgUrl: 'http://c1.mifile.cn/f/i/15/goods/nav/mitv3-60!160x110.jpg', sourcePath: '/#GoodsDetail', price: '3499元'},
-        {name: '小米电视3S 65英寸 曲面', imgUrl: 'http://c1.mifile.cn/f/i/16/goods/nav/mitv3s-65!160x110.jpg', sourcePath: '/#GoodsDetail', price: '8999元'},
-        {name: '小米电视3 70英寸', imgUrl: 'http://c1.mifile.cn/f/i/15/goods/nav/mitv70!160x110.jpg', sourcePath: '/#GoodsDetail', price: '8999元'}
+        {name: '小米电视3S 43英寸', imgUrl: 'http://c1.mifile.cn/f/i/16/goods/nav/mitv3s-43!160x110.jpg', sourcePath: 'GoodsDetail', price: '1499元'},
+        {name: '小米电视3S 48英寸', imgUrl: 'http://c1.mifile.cn/f/i/15/goods/nav/mitv3s48!160x110.jpg', sourcePath: 'GoodsDetail', price: '1999元'},
+        {name: '小米电视3 55英寸', imgUrl: 'http://c1.mifile.cn/f/i/15/goods/nav/mitv355!160x110.jpg', sourcePath: 'GoodsDetail', price: '3299元起'},
+        {name: '小米电视3 60英寸', imgUrl: 'http://c1.mifile.cn/f/i/15/goods/nav/mitv3-60!160x110.jpg', sourcePath: 'GoodsDetail', price: '3499元'},
+        {name: '小米电视3S 65英寸 曲面', imgUrl: 'http://c1.mifile.cn/f/i/16/goods/nav/mitv3s-65!160x110.jpg', sourcePath: 'GoodsDetail', price: '8999元'},
+        {name: '小米电视3 70英寸', imgUrl: 'http://c1.mifile.cn/f/i/15/goods/nav/mitv70!160x110.jpg', sourcePath: 'GoodsDetail', price: '8999元'}
       ],
       box: [
         {name: '小米盒子mini版', imgUrl: 'http://c1.mifile.cn/f/i/15/goods/nav/hezimini.png', sourcePath: 'http://www.mi.com/hezimini/', price: '179元'},

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="qy_slide">
  
     <el-carousel :interval="5000" arrow="always">
         <el-carousel-item v-for="item in banners" :key="item">
@@ -29,7 +29,7 @@ export default {
 </script>
 
 <style>
-  .el-carousel__item h3 {
+  .qy_slide .el-carousel__item h3 {
       color: #475669;
       font-size: 18px;
       opacity: 0.75;
@@ -37,14 +37,14 @@ export default {
       margin: 0;
     }
     
-    .el-carousel__item:nth-child(2n) {
+    .qy_slide .el-carousel__item:nth-child(2n) {
       background-color: #99a9bf;
     }
     
-    .el-carousel__item:nth-child(2n+1) {
+    .qy_slide .el-carousel__item:nth-child(2n+1) {
       background-color: #d3dce6;
     }
-    .el-carousel,.el-carousel__container {
+    .qy_slide .el-carousel,.qy_slide .el-carousel__container {
         height: 100%;
     }
 

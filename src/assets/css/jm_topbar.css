@@ -19,7 +19,7 @@ body{
 	background-color: #333333;
 }
 
-.top-bar{
+.jm .top-bar{
 	width: 90%;
 	margin: 0 auto;
 	position: relative;
@@ -27,7 +27,7 @@ body{
 	z-index: 11;
 }
 
-.topbar-nav{
+.jm .topbar-nav{
 	float: left;
 	display: inline-block;
 	height: 40px;
@@ -35,14 +35,14 @@ body{
 	overflow: hidden;
 }
 
-.nav-wrap{
+.jm .nav-wrap{
 	display: inline-block;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-.nav-wrap>.nav{
+.jm .nav-wrap>.nav{
 	display: inline-block;
 	text-decoration: none;
 	height: 40px;
@@ -50,25 +50,25 @@ body{
 	padding-left: 5px;
 }
 
-.nav-wrap>.nav>.nav-name{
+.jm .nav-wrap>.nav>.nav-name{
 	display: inline-block;
 	text-decoration: none;
 	font-size: 12px;
 	color: #b0b0b0;
 
 }
-.nav-wrap>.nav>.nav-name:hover{
+.jm .nav-wrap>.nav>.nav-name:hover{
 	color: #fff;
 }
 
-.nav-wrap>.nav>.nav-separate{
+.jm .nav-wrap>.nav>.nav-separate{
 	display: inline-block;
 	color: #b0b0b0;
 	margin-left: 5px;
 }
 
 
-.topbar-info{
+.jm .topbar-info{
 	position: absolute;
 	top: 0;
 	right: 140px;
@@ -76,19 +76,19 @@ body{
 	line-height: 40px;
 }
 
-.topbar-info>a{
+.jm .topbar-info>a{
 	color: #b0b0b0;
 	text-decoration: none;
 }
-.topbar-info a:hover{
+.jm .topbar-info a:hover{
 	color: #ffffff;
 }
 
-.topbar-info>.nav-separate,.nav-wrap>.nav-separate{
+.jm .topbar-info>.nav-separate,.nav-wrap>.nav-separate{
 	color: #b0b0b0;
 }
 
-.topbar-cart{
+.jm .topbar-cart{
 	position: relative;
 	float: right;
 	width: 120px;
@@ -98,15 +98,15 @@ body{
 	background: #424242;
 }
 
-.topbar-cart>.active{
+.jm .topbar-cart>.active{
 	background: #ffffff;
 }
 
-.topbar-cart>.cart :hover{
+.jm .topbar-cart>.cart :hover{
 	color: #ff6700;
 }
 
-.topbar-cart>.cart>a{
+.jm .topbar-cart>.cart>a{
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -116,11 +116,11 @@ body{
 	box-sizing:border-box;
 }
 
-.topbar-cart>.cart>span{
+.jm .topbar-cart>.cart>span{
 	color: #b0b0b0;
 }
 
-.topbar-cart>.cart>.icon-cart{
+.jm .topbar-cart>.cart>.icon-cart{
 	position: absolute;
 	left: 15px;
 	top:10px;
@@ -128,7 +128,7 @@ body{
 	color: #b0b0b0;
 }
 
-.topbar-cart>.cart-list{
+.jm .topbar-cart>.cart-list{
 	position: absolute;
 	width: 316px;
 	height: 96px;
@@ -143,12 +143,12 @@ body{
 	z-index: 10;
 }
 
-.cart-list.fadein-transition{
+.jm .cart-list.fadein-transition{
 	transition: all 10s ease;
 	height: 96px;
 }
 
-.fadein-enter, .fadein-leave{
+.jm .fadein-enter, .fadein-leave{
 	height: 0;
 }
 

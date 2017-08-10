@@ -84,7 +84,7 @@ export default {
 }
 </script>
 
-<style>
+<style scope>
 .xm-top-sub {
 	position: relative;
 	width: 100%;

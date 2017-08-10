@@ -32,7 +32,7 @@
 
 				    <el-tab-pane label="扫码登录" name="second" class="erwei">
 						<div class="erweima">
-							<img src="../assets/img/erweima.png">
+							<img src="../assets/img/tverweima.png">
 						</div>
 				    </el-tab-pane>
 				 </el-tabs>
@@ -195,6 +195,7 @@
   export default {
     data() {
       return {
+      	activeName:"first",
         dynamicValidateForm: {
           domains: [{
             value: ''

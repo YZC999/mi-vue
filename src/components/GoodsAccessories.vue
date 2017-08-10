@@ -46,6 +46,7 @@
 </template>
 
 <script>
+import {api} from "../global/api.js"
   export default{
     data(){
       return {
@@ -97,8 +98,8 @@
           // return this.bb;
           
          
-          this.$http.get('../../static/data/yxmdata.json',{params:{"key":this.inputValue}}).then(function(response){
-              
+          // this.$http.get('../../static/data/yxmdata.json',{params:{"key":this.inputValue}}).then(function(response){
+          this.$http.get(api.yxmdata,{params:{"key":this.inputValue}}).then(function(response){    
           console.log(response)
           console.log(response.data)
 

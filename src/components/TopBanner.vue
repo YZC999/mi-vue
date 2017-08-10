@@ -161,16 +161,6 @@ export default {
         ]
     }
   },
-  // computed: {
-  // 	filterCurrGoods: function () {
-  // 		let filterGoods = [[], [], [], [], []]
-  // 		this.currGoods.forEach(function (item, index) {
-  // 			let goodsIndex = Math.floor(index / 6)
-  // 			filterGoods[goodsIndex].push(item)
-  // 		})
-  // 		return filterGoods
-  // 	}
-  // }
   methods: {
   	currGoodschange (curtype) {
       this.isShow=true;

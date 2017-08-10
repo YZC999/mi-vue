@@ -168,7 +168,7 @@ export default {
 }
 </script>
 <!-- <script type="text/javascript" src="../../assets/js/gVerify.js"></script> -->
-<style>
+<style scope>
   .regist_all{
     position: absolute;
     width: 100%;
@@ -192,14 +192,14 @@ export default {
   .regist_all .el-select{
     width: 100%;
   }
-  .img img{
+  .mi_regist .img img{
     margin: 0 auto;
     display: block;
   }
-  .title h3{
+  .mi_regist .title h3{
     text-align: center;    
   }
-  .img,.title{
+  .mi_regist .img,.mi_regist .title{
     margin-bottom: 10%;
   }
   .regist_all .el-button--primary{

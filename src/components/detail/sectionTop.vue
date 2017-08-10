@@ -92,7 +92,7 @@ export default {
 	    transform: translate3d(0, 0, 0);
 	}*/
 	.section-top.preload .layer-yu {
-	    background-image: url("../../assets/img/top-yu.jpg");
+	    background-image: url(https://c1.mifile.cn/f/i/17/mitv4/65index/top-yu.jpg);
 	}
 	.section-top .layer-yu {
 	    position: absolute;
@@ -120,7 +120,7 @@ export default {
 	    transform: translate3d(0, 0, 0);
 	}
 	.section-top.preload .layer-tv {
-	    background: url('../../assets/img/top-tv.png') no-repeat center center;
+	    background: url(https://c1.mifile.cn/f/i/17/mitv4/65index/top-tv.png) no-repeat center center;
 	}
 	.section-top .layer-tv {
 	    position: absolute;
@@ -134,7 +134,7 @@ export default {
 	    transition: all 2s;
 	}
 	.section-top.preload .layer-bg {
-	    background: url('../../assets/img/top-end.jpg') no-repeat center top;
+	    background: url(https://c1.mifile.cn/f/i/17/mitv4/65index/top-end.jpg) no-repeat center top;
 	}
 	.section-top .layer-bg {
 	    position: absolute;

@@ -37,21 +37,3 @@ export default{
 	}
 }
 </script>
-
-
-<script type="text/x-javascript">
-		$(function(){
-
-			var nav=$(".xm-header-nav-fixed").offset().top;
-			var win=$(window);
-			var sc=$(document);
-			win.scroll(function(){
-				if(sc.scrollTop()>=nav){
-				$('.xm-header-nav-fixed').css("position","fixed");
-				
-				}
-				 
-			})
-		})
-	</script>
-

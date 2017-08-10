@@ -1,5 +1,5 @@
 <template>
-	<header class="top-container">
+	<header class="jm top-container">
 		
 		<div class="top-bar cleafix">
 			

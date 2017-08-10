@@ -47,8 +47,8 @@
 </template>
 
 <script>
-	export default {
-      
+import {api} from "../global/api.js"
+	export default {    
 	  name: 'box-container',
 	  data () {
 	    return {
@@ -66,7 +66,8 @@
 	  	//获取动态数据（json也有可能接口）
 	  	getData:function(){
 	  		let me = this;
-	  		this.$http.get('../../static/data/goodtop-box.json',{params:{"key":this.inputValue}}).then(function(response){
+	  		// this.$http.get('../../static/data/goodtop-box.json',{params:{"key":this.inputValue}}).then(function(response){
+	  		this.$http.get(api.goodtopbox,{params:{"key":this.inputValue}}).then(function(response){
 	  			me.goods = response.data
 
 	  		}, function(response){

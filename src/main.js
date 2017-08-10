@@ -12,6 +12,7 @@ import 'element-ui/lib/theme-default/index.css'
 
 import './assets/js/jquery-3.1.1.js'
 import './assets/js/gVerify.js'
+import './assets/css/base.css'
 
 Vue.use(VueVideoPlayer)
 Vue.use(ElementUI)
