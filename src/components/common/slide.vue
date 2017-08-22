@@ -6,7 +6,7 @@
           <!-- <h3>{{ item.imgUrl }}</h3> -->
           <img :src="item.imgUrl">
         </el-carousel-item>
-      </el-carousel>
+    </el-carousel>
   </div>
 </template>
 

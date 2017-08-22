@@ -211,7 +211,8 @@ export default {
     .topBanner_all .qy_lunboLeft{
       position: absolute;
       width: 20%;
-      background: #757575;
+      background: #ccc;
+      /*background: rgba(0,0,0,0.2);*/
       height: 460px;
       z-index: 999;
     }
@@ -293,6 +294,8 @@ export default {
     .topBanner_all .qy_lunboRight .el-carousel__item img{
       position:absolute;
       right:0;
+      width: 100%;
+      height: 100%;
     }
 
 </style>
